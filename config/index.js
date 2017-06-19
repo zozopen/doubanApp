@@ -26,7 +26,7 @@ module.exports = {
     port: 8087,
     autoOpenBrowser: true,
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '/',
     proxyTable: {
       '/api': {
         target: ' http://api.douban.com/v2/',
